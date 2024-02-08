@@ -1,0 +1,62 @@
+:root {
+    --color-primary: #бC9BсЕ;
+    --color-danger: #FF0060;
+    --color-success: #1B9C85;
+    --color-warning: #F7D060;
+    --color-white: #fff;
+    --color-info-dark: #7d8dal;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-dark-variant: #677483;
+    --color-background: #191547;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 1.2rem;
+    --card-padding: 1.8rem;
+
+    --padding-1: 1.2rem;
+    -box-shadow: O2rem 3rem var(--color-light);
+
+}
+
+#calculadora-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.form-control {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    flex: 1;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: var(--color-white)
+}
+
+.form-control input {
+    padding: 1rem .5rem;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.form-label {
+    display: flex;
+}

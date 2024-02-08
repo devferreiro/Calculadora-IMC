@@ -1,0 +1,17 @@
+button{
+    text-transform: uppercase;
+    padding: 1rem 1.4rem;
+    background-color: var(--color-success);
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+    border-radius: 2rem;
+    opacity: .9;
+    flex: 1;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+

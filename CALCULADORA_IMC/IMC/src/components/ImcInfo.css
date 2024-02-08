@@ -1,0 +1,91 @@
+
+:root {
+    --color-primary: #бC9BсЕ;
+    --color-danger: #FF0060;
+    --color-careful: rgb(187, 123, 3);
+    --color-success: #1B9C85;
+    --color-warning: #F7D060;
+    --color-white: #fff;
+    --color-info-dark: #7d8dal;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-dark-variant: #677483;
+    --color-background: #191547;
+
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 1.2rem;
+    --card-padding: 1.8rem;
+
+    --padding-1: 1.2rem;
+    -box-shadow: O2rem 3rem var(--color-light);
+
+}
+.result-container{
+    text-align: center;
+}
+
+#imc-number{
+    font-size: 2rem;
+    margin-bottom: .6rem ;
+}
+#imc-info{
+    font-size: 1.4rem;
+}
+
+.result-container h3{
+    margin-top: 1rem;
+    color: var(--color-white)
+}
+
+.result-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#imc-table{
+    margin: 1.5rem 0;
+    font-size: .8rem;
+}
+.table-header{
+    font-weight: bold;
+    color: var(--color-white)
+}
+
+
+.table-header, .table-data{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--color-white);
+}
+
+.table-header h4,
+.table-data p{
+    flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3){
+    max-width: 80px;
+}
+
+#back-btn{
+    align-self: center;
+}
+
+.good{
+    color: var(--color-success);
+}
+
+.low{
+    color: var(--color-warning);
+}
+.medium{
+    color: var(--color-careful);
+}
+.high{
+    color: var(--color-danger);
+}
